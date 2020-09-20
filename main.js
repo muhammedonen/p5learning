@@ -28,16 +28,6 @@ function change() {
 }
 
 function draw() {
-  background(bcolor)
-let hr = hour();
-let mnt = minute();
-let scnd = second();
-
-fill('#ff414d');
-noStroke();
-textSize(50);
-text( hr + ':' + mnt + ':' + scnd , 610, 50);
-
 
 
 
